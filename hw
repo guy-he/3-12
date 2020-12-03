@@ -1,0 +1,31 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("hello world");
+
+
+        Scanner s = new Scanner(System.in);
+        System.out.println( "type int a");
+int a = s.nextInt();
+        System.out.println("type int b");
+int b = s.nextInt();
+        System.out.println("a*b =" + a*b );
+        System.out.println("type double c");
+        double c = s.nextDouble();
+        System.out.println("type double d");
+        double d = s.nextDouble();
+        System.out.println("c/d = "+ c/d);
+
+        System.out.println("type long e");
+        long e = s.nextLong();
+        System.out.println("type long f");
+        long f = s.nextLong();
+        System.out.println(a+b * c-d +(e*f));
+
+        System.out.println(" are you smart? only true or false ");
+        boolean are_you_smart = s.nextBoolean();
+        System.out.println("is smart?"+are_you_smart);
