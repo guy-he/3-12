@@ -1,0 +1,27 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("hello world");
+        Scanner s = new Scanner(System.in);
+        System.out.println("type grade");
+        int grade = s.nextInt();
+
+        if (grade < 55) {
+            System.out.println("failed");
+            grade = 0;
+
+        }
+if (grade > 80){
+    System.out.println("very good, your grade is: ");
+    grade = 100;
+}
+        System.out.println(grade);
+
+
+    }
+
+}
